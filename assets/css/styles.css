@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+:root {
+  --font-Luckiest: Luckiest Guy, cursive;
+  --font-OpenSans: Open Sans, sans-serif;
+
+  --text: #111;
+  --text-white: #fff;
+  --muted: #555;
+
+  --bg: #fafafa;
+  --surface: #23272a;
+
+  --border: #e6e6e6;
+
+  --space-0: 0.1rem;
+  --space-1: 0.5rem;
+  --space-2: 0.75rem;
+  --space-3: 1rem;
+  --space-4: 1.5rem;
+
+  --radius-1: 28px;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: var(--font-OpenSans);
+  line-height: 1.4;
+  display: grid;
+  grid-template-columns: 1fr;
+  min-height: calc(100vh - var(--header-height));
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.header {
+  padding: 0 24px;
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  background-image: url("../img/Header\ Background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header .container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.header .container h1 {
+  margin: 0;
+  font-family: var(--font-Luckiest);
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 1;
+  color: var(--text-white);
+}
+
+.header .container p {
+  margin: 0;
+  margin-top: 24px;
+  font-family: var(--font-OpenSans);
+  font-weight: 400;
+  font-size: 1rem;
+  color: var(--text-white);
+}
+
+.header .buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  margin: 0;
+  padding: 16px;
+  margin-top: 24px;
+  width: 100%;
+  background-color: var(--surface);
+  color: var(--text-white);
+  font: inherit;
+  border: none;
+  border-radius: var(--radius-1);
+  cursor: pointer;
+}
+
+.main {
+  padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main .container {
+  padding-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.main .container figure {
+  margin: 0;
+  padding: 0;
+}
+
+.main .container .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main .container h1 {
+  margin: 0;
+  margin-top: 27px;
+  color: var(--text);
+  font-family: var(--font-OpenSans);
+  font-weight: 800;
+  font-size: 1.5rem;
+  line-height: 1;
+  text-align: left;
+}
+
+.main .container p {
+  margin: 0;
+  margin-top: 27px;
+  color: var(--text);
+  font-family: var(--font-OpenSans);
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: left;
+}
+
+.main .hero3 {
+  padding-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.footer {
+  margin: 0;
+  margin-top: 40px;
+  padding: 0 24px;
+  height: 140px;
+  background-color: var(--surface);
+  color: var(--text-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.footer .container figure {
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 428px) {
+  body {
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+  }
+}
+
+@media (min-width: 429px) {
+  .header {
+    aspect-ratio: 16 / 6;
+    background-image: url("../img/Header\ Background\ \(1\).png");
+  }
+
+  .header .container {
+    width: 757px;
+    height: 270px;
+    place-items: center;
+    place-content: center;
+  }
+
+  .header .container h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .header .container p {
+    text-align: center;
+  }
+
+  .header .buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 16px;
+  }
+
+  button {
+    width: auto;
+  }
+
+  .main .container {
+    width: 971px;
+    height: 394px;
+    grid-template-columns: auto 1fr;
+    place-items: center;
+    place-content: center;
+  }
+
+  .main .container figure {
+    width: 607px;
+    height: 394px;
+    margin: 0;
+    padding: 40px;
+  }
+
+  .main .container .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main .container h1 {
+    font-size: 2.5rem;
+  }
+
+  .main .hero2 {
+    direction: rtl;
+  }
+
+  .main .hero3 {
+    width: 802px;
+  }
+
+  .main .hero3 h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .main .hero3 p {
+    text-align: center;
+  }
+}
