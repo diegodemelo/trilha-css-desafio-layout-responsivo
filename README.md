@@ -8,6 +8,16 @@ O projeto faz parte da minha jornada de estudos em desenvolvimento Front-end e f
 
 🌐 **[Ver projeto online](https://dimelobarros.github.io/trilha-css-desafio-layout-responsivo/)**
 
+## Demonstração
+
+### Desktop
+
+![Discord - layout em desktop](docs/screenshots/discord-desktop.png)
+
+### Mobile
+
+![Discord - layout em dispositivo móvel](docs/screenshots/discord-mobile.png)
+
 ---
 
 ## Sobre o projeto
