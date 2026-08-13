@@ -6,7 +6,7 @@ Projeto desenvolvido como desafio prático de **desenvolvimento responsivo com C
 
 O projeto faz parte da minha jornada de estudos em desenvolvimento Front-end e foi utilizado para consolidar conhecimentos relacionados a **HTML, CSS, Responsive Web Design, Flexbox, CSS Grid e Media Queries**.
 
-🌐 **[Ver projeto online](https://dimelobarros.github.io/trilha-css-desafio-layout-responsivo/)**
+🌐 **[Ver projeto online](https://diegodemelo.github.io/trilha-css-desafio-layout-responsivo/)**
 
 ## Demonstração
 
@@ -374,7 +374,7 @@ Uso de famílias tipográficas, pesos, tamanhos e alinhamentos diferentes confor
 Clone este repositório:
 
 ```bash
-git clone https://github.com/dimelobarros/trilha-css-desafio-layout-responsivo.git
+git clone https://github.com/diegodemelo/trilha-css-desafio-layout-responsivo.git
 ```
 
 Entre no diretório:
@@ -436,7 +436,6 @@ Como projeto de estudos, ele pode continuar recebendo melhorias, como:
 - criação de novos estados de interação;
 - otimização de imagens;
 - aprimoramentos de responsividade;
-- publicação de uma demonstração online.
 
 ---
 
@@ -461,8 +460,7 @@ JavaScript • TypeScript • React • Next.js • Node.js • PostgreSQL
 [Diego de Melo](https://br.linkedin.com/in/diego-de-melo-0a02b739b)
 
 **GitHub:**  
-[@dimelobarros](https://github.com/dimelobarros)
-
+[@diegodemelo](https://github.com/diegodemelo)
 ---
 
 ### HTML • CSS • Responsive Web Design • Flexbox • CSS Grid
