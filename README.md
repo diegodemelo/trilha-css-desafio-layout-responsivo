@@ -6,6 +6,8 @@ Projeto desenvolvido como desafio prático de **desenvolvimento responsivo com C
 
 O projeto faz parte da minha jornada de estudos em desenvolvimento Front-end e foi utilizado para consolidar conhecimentos relacionados a **HTML, CSS, Responsive Web Design, Flexbox, CSS Grid e Media Queries**.
 
+🌐 **[Ver projeto online](https://dimelobarros.github.io/trilha-css-desafio-layout-responsivo/)**
+
 ---
 
 ## Sobre o projeto
